@@ -1,34 +1,5 @@
 # Training a 3D Diffusion Model using 2D Images
 
-
-
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-
-----------------------------------------------------------------------------------------------------
-
-## Index
-- [Overview](#overview)
-  * [Abstract](#abstract)
-  * [Method](#method)
-- [Code](#code)
-  * [Dependencies](#dependencies)
-  * [Training](#training)
-    * [Data](#data)
-    * [Training models](#training-models)
-    * [Visualization](#visualization)
-  * [Sampling](#sampling)
-    * [Generating samples](#generating-samples)
-- [Acknowledgement](#acknowledgement)
-- [Citation](#citation)
-
-----------------------------------------------------------------------------------------------------
-
-## Overview 
-![Image](https://geometry.cs.ucl.ac.uk/group_website/projects/2023/holodiffusion/webpage/static/figures/teaser.png)
-
 ### Method
 
 ![Diagram](https://geometry.cs.ucl.ac.uk/group_website/projects/2023/holodiffusion/webpage/static/figures/pipeline_small.png)
