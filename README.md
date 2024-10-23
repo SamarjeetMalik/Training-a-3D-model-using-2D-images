@@ -21,8 +21,6 @@ The fastest way to get up and running is to create a new conda environment using
 <user>@<machine>:<project-dir>/holo_diffusion$ conda activate holo_diffusion_release
 (holo_diffusion_release) <user>@<machine>:<project-dir>/holo_diffusion$  
 ```
-Once the release environment is activated, you can start running the training/sampling scripts. <br>
-**But, for some reason, if this doesn't work for you; create a new environment manually and install the following packages.**
 ```
 # New conda environment
 conda create -n holo_diffusion_release python==3.9.15
@@ -111,7 +109,6 @@ Some notes about the training pipeline:
 6. **The baselines of 4. and 5. are a useful indicator to guide the expected performance from the holo-diffusion models in case you are training on a dataset other than Co3D. The visual quality of the models should be such that 5. > 4. and the quality of samples for the diffusion models is somewhere between the two. Note that the noising and denoising process for the generative modelling losses some visual quality compared to non-stochastic few-view reconstruction process.
 
 #### Visualization
-We use [`visdom`](https://github.com/fossasia/visdom) for visualizing the stats and visual logs during training. To access the visdom dashboard, start a visdom server on the `visdom_server` and `visdom_port` specified in the training config. **Please note that the visdom server should be running before starting the training, so that the training process can connect to the visdom server**.
 ```
 (holo_diffusion_release) <user>@<machine>:<project-dir>/holo_diffusion$ python -m visdom.server --hostname <visdom_server> --port <visdom_port>
 ```
