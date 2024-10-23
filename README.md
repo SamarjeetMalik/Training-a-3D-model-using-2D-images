@@ -73,9 +73,6 @@ CO3DV2_DATASET_ROOT
     ├── ...
     ├── <category_K>
 ```
-Please ensure that all the `set_lists` and `eval_batches` are present correctly for the `categories` that you are working with. This is important for the Data-Loading mechanism of the training pipeline to work correctly. <br>
-(Optional) <br>
-At this point, feel free to run the `examples/show_co3d_dataset.py` script from the [Co3Dv2](https://github.com/facebookresearch/co3d) repository to explore the data and to understand the data better.
 
 #### Training models
 Once, the data is downloaded and properly setup, the training scripts can now be run as follows. set an environment variable named `CO3DV2_DATASET_ROOT` which points to the root directory of the Co3Dv2 dataset. 
