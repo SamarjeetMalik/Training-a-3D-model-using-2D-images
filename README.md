@@ -6,9 +6,6 @@
 
 ----------------------------------------------------------------------------------------------------
 
-## Code
-This section presents information about using the code. We use the [Implicitron](https://ai.facebook.com/blog/implicitron-a-new-modular-extensible-framework-for-neural-implicit-representations-in-pytorch3d/) framework for implementing our proposed method. Implicitron is available as a module under [PyTorch3D](https://pytorch3d.org/). It is recomended to go through the [example projects](https://github.com/facebookresearch/pytorch3d/tree/main/projects/implicitron_trainer) of implicitron to understand more about the implicitron-mechanisms before diving into our code. Following is a succinct summary of the strucutre of our code: The main code lies in `holo_diffusion` package in the `holo_diffusion_model.py` and `holo_voxel_grid_implicit_function.py` modules. The latter defines the 3D implicit function which representes the scenes as radiance fields, while the former implements the proposed holo_diffusion pipeline from figure 1. `trainer` package contains the ML components for training, model-building and optimization. We replicated these implicitron parts here in order to make some custom tweaks without affecting the released implicitron package. We also use some of the code from the [guided_diffusion](https://github.com/openai/guided-diffusion) repository and acknowledge here with their original license. 
-
 ### Dependencies
 The fastest way to get up and running is to create a new conda environment using the `environment.yaml` file provided here. 
 
