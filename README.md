@@ -3,10 +3,6 @@
 ### Method
 
 ![Diagram](https://geometry.cs.ucl.ac.uk/group_website/projects/2023/holodiffusion/webpage/static/figures/pipeline_small.png)
-Method Overview. Our HoloDiffusion takes as input video frames for category-specific videos 
-and produces a diffusion-based generative model. The model is trained with only posed image supervision, without access to 3D ground-truth. Once trained, the model can generate view-consistent results from novel camera locations. Please refer to Sec. 3 of the 
-[paper](https://geometry.cs.ucl.ac.uk/group_website/projects/2023/holodiffusion/webpage/static/docs/holo_diffusion_fullres.pdf)
-for details.
 
 ----------------------------------------------------------------------------------------------------
 
