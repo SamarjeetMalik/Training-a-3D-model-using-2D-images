@@ -176,27 +176,3 @@ To generate the sampling animation (similar to the ones shown at the top), use t
 Please note that you can similarly use the `visualize_reconstruction.py` script for visualizing the few-view reconstructions from the baseline unet model which is trained without diffusion. 
 
 ----------------------------------------------------------------------------------------------------
-## Acknowledgement
-<table border="0px">
- <tr>
-    <td> 
-    <div style="width:315px; height:67px"><img src="https://geometry.cs.ucl.ac.uk/group_website/projects/2023/holodiffusion/webpage/static/images/logos/prime-eu-logo.png" height=200%/></div>
-    </td>
-    <td>
-    <p> Animesh and Niloy were partially funded by the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 956585. This research has also been supported by MetaAI and the UCL AI Centre. Finally, Animesh thanks Alexia Jolicoeur-Martineau for the the helpful and insightful guidance on diffusion models. </p>
-    </td>
- </tr>
-</table> 
-
-----------------------------------------------------------------------------------------------------
-## Citation
-
-```
-@inproceedings{karnewar2023holodiffusion,
-    title={HoloDiffusion: Training a {3D} Diffusion Model using {2D} Images},
-    author={Karnewar, Animesh and Vedaldi, Andrea and Novotny, David and Mitra, Niloy},
-    booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
-    year={2023}
-}    
-```
-----------------------------------------------------------------------------------------------------
